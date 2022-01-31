@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+body {
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: orangered;
+    color: white;
+    width: 100%;
+    padding: 20px;
+    margin: none;
+}
+
+.header>div {
+    font-size: 30px;
+    padding: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#dd1 {
+    background-color: orangered;
+    color: white;
+    border: none;
+    font-size: 30px;
+    font-weight: lighter;
+    padding: 10px;
+    padding-bottom: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#content {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    background-color: white;
+    padding: 10px;
+}
+
+.newsContent {
+    background-color: white;
+    border: none;
+    text-align: start;
+    padding: 10px;
+}
+
+img {
+    height: 275px;
+    width: 100%;
+}
+
+.card-title {
+    text-align: center;
+    color: black;
+}
+
+.card-des {
+    text-align: center;
+    color: gray;
+}
+
+.btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 2px;
+    background-color: rgb(0, 110, 255);
+    color: white;
+    width: 100px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+    border: none;
+}
+
+.btn:hover {
+    border: 1px solid black;
+    transition: .5s;
+}
